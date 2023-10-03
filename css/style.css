@@ -49,13 +49,15 @@ main .personagem .imagem {
 .conteudo {
     position: absolute;
     top: 0;
-    left: 120px;
+    left: 80px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     min-height: 100vh;
     max-width: 380px;
     z-index: 1;
+    /* font-family: "Secular One"; */
+    font-size: 1em;
 }
 
 .conteudo .nome-personagem {
